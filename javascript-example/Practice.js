@@ -60,12 +60,20 @@
 
 //Remove a number from a array if the number is present
 
-function removeNum(arr, num){
-   let newArr =  arr.filter((nums) => {
-        return nums!=num;
-    });
-    console.log(newArr);
-}
-let arr = [7,8,9,10];
-removeNum(arr, 8);
-removeNum(arr, 10);
+// function removeNum(arr, num){
+//    let newArr =  arr.filter((nums) => {
+//         return nums!=num;
+//     });
+//     console.log(newArr);
+// }
+// let arr = [7,8,9,10];
+// removeNum(arr, 8);
+// removeNum(arr, 10);
+
+// var arr = [2,4,5,7];
+// console.log(Array.prototype);
+
+
+
+
+
