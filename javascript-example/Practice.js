@@ -77,3 +77,34 @@
 
 
 
+// function count(i){
+//     if(i == 6){
+//         return;
+//     }
+//     console.log(i);
+//     count(i+1);
+//     console.log(i);
+// }
+
+// count(1);
+
+// function multiplyBy5(i){
+//     if(i >= 30){
+//         return;
+//     }
+//     console.log(i);
+//     multiplyBy5(i+5);
+// }
+// multiplyBy5(0);
+
+let arr = [2,3,4,5,6,8];
+function Inmap(arr){
+    let newArr = [];
+    for(let i=0;i<arr.length;i++){
+        newArr[i] = arr[i]*2;
+    }
+    return newArr;
+}
+console.log(arr);
+console.log(Inmap(arr));
+
